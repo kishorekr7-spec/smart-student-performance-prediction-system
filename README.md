@@ -51,10 +51,10 @@ display_result()
 6. Requirement Analysis:
 Identify the User
 Primary users may include:
-Faculty
-Academic coordinators
-Mentors
-Students
+Faculty,
+Academic coordinators,
+Mentors,
+Students.
 
 7. User Requirement:
 The user should be able to:
