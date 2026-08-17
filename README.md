@@ -51,9 +51,7 @@ display_result()
 
 6. Requirement Analysis
 Identify the User
-
 Primary users may include:
-
 Faculty
 Academic coordinators
 Mentors
@@ -97,7 +95,6 @@ Risk level
 Key factors affecting performance
 Recommended actions
 Example:
-
 Prediction: Good Performance
 Risk Level: Low
 Recommendation: Maintain current study pattern and attendance
