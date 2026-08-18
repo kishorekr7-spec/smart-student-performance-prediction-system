@@ -142,8 +142,8 @@ The initial system can use:
 
 **Recommendation:** Maintain current study pattern and attendance
 
-#### 7. From Requirements to System Design
-##### __7.1 Input__
+# 7. From Requirements to System Design
+## 7.1 Input
 + Student ID
 + Student Name
 + Attendence %
@@ -152,20 +152,20 @@ The initial system can use:
 + Assignment Completion %
 + Previous Academic Performance
 
-##### __7.2 Processing__
+## 7.2 Processing
 + Validate input
 + Preprocess data
 + Send data to ML Model
 + Generate prediction
 + Generate recommendation
 
-##### __7.3 Output__
+## 7.3 Output
 + Predited performance
 + Performance category
 + Risk level
 + Recommendation
 
-#### 8. Proposed System Archtecture
+# 8. Proposed System Archtecture
 ```mermaid
 flowchart LR
     A(( Tkinter UI student data entry )) --> B(( Input Validation - Check valid user inputs  ));
@@ -173,7 +173,7 @@ flowchart LR
     C --> D(( ML Prediction Engine - Predict performnace ));
     D --> E(( Result + AI Recommendation ));
 ```
-#### 9. UI Design Requirements
+# 9. UI Design Requirements
 The application must contain: 
 > __1. Student Information Section__
    + Student ID
