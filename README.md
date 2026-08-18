@@ -141,3 +141,57 @@ The initial system can use:
 **Risk Level:** Low
 
 **Recommendation:** Maintain current study pattern and attendance
+
+#### 7. From Requirements to System Design
+##### __7.1 Input__
++ Student ID
++ Student Name
++ Attendence %
++ Study Hours
++ Internal Marks
++ Assignment Completion %
++ Previous Academic Performance
+
+##### __7.2 Processing__
++ Validate input
++ Preprocess data
++ Send data to ML Model
++ Generate prediction
++ Generate recommendation
+
+##### __7.3 Output__
++ Predited performance
++ Performance category
++ Risk level
++ Recommendation
+
+#### 8. Proposed System Archtecture
+```mermaid
+flowchart LR
+    A(( Tkinter UI student data entry )) --> B(( Input Validation - Check valid user inputs  ));
+    B --> C(( Data Processing - Prepare data for ML Model  ));
+    C --> D(( ML Prediction Engine - Predict performnace ));
+    D --> E(( Result + AI Recommendation ));
+```
+#### 9. UI Design Requirements
+The application must contain: 
+> __1. Student Information Section__
+   + Student ID
+   + Student Name
+  
+> **2. Academic Information Section**
+  + Attendence
+  + Study Hours
+  + Internal Marks
+  + Assignment Completion
+  + Previous Performance
+
+> **3. Action Section**
+  + Predict Performance
+  + Clear
+  + Exit
+
+> **4. Result Section**
+  + Predicted Performance
+  + Risk Level
+  + Recommendation
