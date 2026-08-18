@@ -195,3 +195,19 @@ The application must contain:
   + Predicted Performance
   + Risk Level
   + Recommendation
+
+    
+##### Using Frames
+```mermaid
+flowchart LR
+    A["`**Main Window**`"
+ Header
+ Student information frame
+ Academic information frame
+ Action frame
+ Result frame
+]
+```
+
+##### Workflow
+<p align="center"><br> User Clicks Predict <br> &darr; <br> Button generates event <br> &darr; <br> Callback function executes <br> &darr; <br> Python processing starts <br></p>
