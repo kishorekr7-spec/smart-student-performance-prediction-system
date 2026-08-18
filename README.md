@@ -175,23 +175,23 @@ flowchart LR
 ```
 # 9. UI Design Requirements
 The application must contain: 
-> __1. Student Information Section__
+> ## 9.1. Student Information Section_
    + Student ID
    + Student Name
   
-> **2. Academic Information Section**
+> ## 9.2. Academic Information Section
   + Attendence
   + Study Hours
   + Internal Marks
   + Assignment Completion
   + Previous Performance
 
-> **3. Action Section**
+> ## 9.3. Action Section
   + Predict Performance
   + Clear
   + Exit
 
-> **4. Result Section**
+> ## 9.4. Result Section
   + Predicted Performance
   + Risk Level
   + Recommendation
